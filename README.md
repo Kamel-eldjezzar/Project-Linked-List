@@ -1,13 +1,5 @@
 # Linked List Project – Algorithm & Data Structures (C)
 
-Lab 4 — Linked Lists  
-University of Mostaganem — 2nd year Computer Science  
-Subject: Algorithmic and Data Structures 3
-
----
-
-## Overview
-
 This project implements a *special singly linked list* in C.  
 Each node stores:
 - a real number (double),
