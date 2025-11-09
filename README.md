@@ -1,14 +1,25 @@
 # Linked List Project – Algorithm & Data Structures (C)
 
-This project implements a special singly linked list in C.  
-Each node contains:
-- a real number,
-- the number of occurrences of this value,
-- a pointer to the next node.
-
-If a value already exists in the list, its occurrence counter is incremented.  
-Otherwise, a new node is created.
+Lab 4 — Linked Lists  
+University of Mostaganem — 2nd year Computer Science  
+Subject: Algorithmic and Data Structures 3
 
 ---
 
-## Project Structure
+## Overview
+
+This project implements a *special singly linked list* in C.  
+Each node stores:
+- a real number (double),
+- the number of occurrences (an integer),
+- a pointer to the next node.
+
+When inserting a value:
+- if it already exists in the list, its occurrence counter is incremented;
+- otherwise, a new node is appended (or inserted according to your chosen policy).
+
+The library exposes a small API to initialize and manipulate the list, display it, count elements (considering occurrences), search and remove values.
+
+---
+
+## Project structure
